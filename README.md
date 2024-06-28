@@ -1,2 +1,5 @@
-# REPO proj_integrado
-# Repositório de arquivos do Projeto Integrado do curso da PROZ.
+# Nome: proj_integrado
+# Grupo: 3
+Repositório de arquivos do Projeto Integrado do curso da PROZ (Turma 27).
+
+

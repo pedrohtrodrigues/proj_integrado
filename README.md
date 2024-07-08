@@ -4,7 +4,7 @@ Repositório de arquivos do Projeto Integrado do curso da PROZ (Turma 27).
 
 
 Objetivo:
-Nosso objetivo é criar um site dedicado a abrigar e disponibilizar cursos relacionados à tecnologia, com o intuito de oferecer uma plataforma acessível e prática para estudantes interessados em aprimorar suas habilidades em Pythonm Java, etc.
+Nosso objetivo é criar um site dedicado a abrigar e disponibilizar cursos relacionados à tecnologia, com o intuito de oferecer uma plataforma acessível e prática para estudantes interessados em aprimorar suas habilidades em Python Java, etc.
 
 
 Participantes:

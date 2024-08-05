@@ -1,12 +1,99 @@
-body {
-    background-color:#294604
-}
+
 header {
     background-color: #294604;
 }
-main {
-    background-color: #301B0C;
+header .logo {
+    display: inline;
 }
-footer {
+header .links{
+    display: inline;
+    float: right;
+    background-color: black;
+    border: 4px solid #301B0C;;
+}
+header .links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    width: auto ;
+    background-color: black;
+    border-top: 8px solid #301B0C;
+    border-left: 8px solid #301B0C;
+    border-right: 13vw solid #301B0C;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #301B0C;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 14px;
+}
+#Carrossel {
+    background-color: #4D4D4D;
+    width: 61.23vw;
+    padding-right: 24.8%;
+    border-left: 8px solid #301B0C;
+}
+#Proposta-1 {
+    background-color: #4D4D4D;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#Proposta-2 {
+    background-color: #4D4D4D;
+    margin-top: 32px;
+    margin-bottom: 4px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#Proposta-3 {
+    background-color: #4D4D4D;
+    margin-top: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#Proposta-4 {
+    background-color: #4D4D4D;
+    margin-top: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+footer div {
     background-color: #294604;
+    padding: 80px;
+    border-bottom: 8px solid #301B0C;
+}
+footer section {
+    display: flex;
+    justify-content: space-between;
+    background-color:#86A45F;
+    padding-top: 25px;
+    padding-bottom: 120px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }

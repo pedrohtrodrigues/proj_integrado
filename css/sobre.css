@@ -2,8 +2,26 @@ header {
     background-color:lightcyan;
 }
 
-header .logo {
-  display: inline;
+.nav-header{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-decoration-color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-header ul{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style-type: none;
+  align-items: center;
+}
+
+body {
+  padding: 1rem 2rem;
+  background-color: rgb(255, 255, 255);
 }
 
 main{
@@ -12,33 +30,39 @@ main{
   text-align:left;
 }
 
-article {
+article  {
   background-color: rgb(179, 159, 219);
-  padding: 1.5rem 2rem;
-  width: 600px;
-  border-radius: 16px;
-  color: rgb(21, 3, 58);
+  padding: 20px;
+  width: 800px;
+  border-radius: 15px;
   margin-bottom: 2rem;
 }
 
+article h3 {
+  margin-bottom: 0.5rem;
+  
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(21, 3, 58);
+
+}
+
 main section{
-display:flex ;
+display:flex;
 justify-content:left;
 }
 
 main section div{
-  background-image: url;
   margin: 20px;
   padding: 20px;
   padding-top: 20px;
   width: 300px;
-  height: 200px;
+  height: 100px;
   text-align: left;
   border-radius: 10px;
 }
 
 main section div h3{
-  padding-bottom: px;
+  padding-bottom: 10px;
 }
 
 footer div {

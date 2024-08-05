@@ -1,0 +1,59 @@
+header {
+    background-color:lightcyan;
+}
+
+header .logo {
+  display: inline;
+}
+
+main{
+    
+  color: rgb(0, 0, 0);
+  text-align:left;
+}
+
+article {
+  background-color: rgb(179, 159, 219);
+  padding: 1.5rem 2rem;
+  width: 600px;
+  border-radius: 16px;
+  color: rgb(21, 3, 58);
+  margin-bottom: 2rem;
+}
+
+main section{
+display:flex ;
+justify-content:left;
+}
+
+main section div{
+  background-image: url;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  width: 300px;
+  height: 200px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+main section div h3{
+  padding-bottom: px;
+}
+
+footer div {
+  background-color:lightcyan;
+  padding: px;
+  border-bottom: 8px solid #458fd1;
+}
+footer section {
+  display: flex;
+  justify-content: space-between;
+  background-color:lightcyan;
+  padding-top: 25px;
+  padding-bottom: 120px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}

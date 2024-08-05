@@ -50,37 +50,40 @@ main {
 }
 #Proposta-1 {
     background-color: #4D4D4D;
-    margin-top: 16px;
-    margin-bottom: 4px;
+    margin-top: 14.5px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20%;
     padding-bottom: 20%;
+    border: 8px solid #301B0C;
 }
 #Proposta-2 {
     background-color: #4D4D4D;
-    margin-top: 40px;
+    margin-top: 14.5px;
     margin-bottom: 4px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20%;
     padding-bottom: 20%;
+    border: 8px solid #301B0C;
 }
 #Proposta-3 {
     background-color: #4D4D4D;
-    margin-top: 40px;
+    margin-top: 14.5px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20%;
     padding-bottom: 20%;
+    border: 8px solid #301B0C;
 }
 #Proposta-4 {
     background-color: #4D4D4D;
-    margin-top: 40px;
+    margin-top: 14.5px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 20%;
     padding-bottom: 20%;
+    border: 8px solid #301B0C;
 }
 footer div {
     background-color: #294604;

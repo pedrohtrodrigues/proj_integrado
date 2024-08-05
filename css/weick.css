@@ -24,7 +24,7 @@ header nav {
     background-color: black;
     border-top: 8px solid #301B0C;
     border-left: 8px solid #301B0C;
-    border-right: 13vw solid #301B0C;
+    border-right: 15.7vw solid #301B0C;
 }
 header nav a {
     text-decoration: none;
@@ -99,5 +99,5 @@ footer section {
 }
 footer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }

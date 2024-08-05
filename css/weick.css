@@ -55,7 +55,8 @@ main {
     padding-right: 100px;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 8px solid #301B0C;
+    border: 8px solid #301B0C;background-color: #4D4D4D;
+    
 }
 #Proposta-2 {
     background-color: #4D4D4D;

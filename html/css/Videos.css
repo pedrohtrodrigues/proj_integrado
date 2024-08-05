@@ -1,0 +1,55 @@
+header {
+    background-color:lightcyan;
+}
+head{
+
+    background-color: lavender ;
+    display:flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+   #Video-em-exposição{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #4a4848;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 14px;
+    height: 500px;
+    border: 8px solid #6d7b98;background-color: #4D4D4D;
+   }
+
+#Aula-1{
+    display: block;
+    width: 230;
+    height: 230;
+    border: 8px solid #6d7b98;background-color: #4D4D4D;
+
+}
+#Aula-2{
+    display: block;
+    width: 230;
+    height: 230;
+    border: 8px solid #6d7b98;background-color: #4D4D4D;
+}
+
+
+#Aula-3{
+    display: block;
+    width: 230;
+    height: 230;
+    border: 8px solid #6d7b98;background-color: #4D4D4D;
+}
+
+ 
+#Aula-4{
+    display: block;
+    width: 230;
+    height: 230;
+    border: 8px solid #6d7b98;background-color: #4D4D4D;
+}   
+    
+
+
+   

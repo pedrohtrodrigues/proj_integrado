@@ -1,4 +1,10 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
 header {
     background-color: #294604;
 }
@@ -9,27 +15,24 @@ header .links{
     display: inline;
     float: right;
     background-color: black;
-    border: 4px solid #301B0C;;
+    border: 0.3vw solid #301B0C;;
 }
 header .links a {
-    text-decoration: none;
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
 }
 header nav {
     display: flex;
     justify-content: flex-start;
-    width: auto ;
     background-color: black;
-    border-top: 8px solid #301B0C;
-    border-left: 8px solid #301B0C;
-    border-right: 15.7vw solid #301B0C;
+    border-top: 0.5vw solid #301B0C;
+    border-left: 0.5vw solid #301B0C;
+    border-right: 0.5vw solid #301B0C;
 }
 header nav a {
-    text-decoration: none;
     color: white;
-    margin-left: 20px;
+    margin-left: 1.5vw;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -37,66 +40,63 @@ main {
     display: flex;
     justify-content: flex-start;
     background-color: #301B0C;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    gap: 14px;
-    height: 900px;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 #Carrossel {
     background-color: #4D4D4D;
-    width: 61.23vw;
-    padding-right: 24.8%;
-    border-left: 8px solid #301B0C;
+    width: 85vw;
+    border-left: 0.5vw solid #301B0C;
 }
 #Proposta-1 {
     background-color: #4D4D4D;
-    margin-top: 14.5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-bottom: 0.25vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 8px solid #301B0C;background-color: #4D4D4D;
+    border: 0.5vw solid #301B0C;
     
 }
 #Proposta-2 {
     background-color: #4D4D4D;
-    margin-top: 14.5px;
-    margin-bottom: 4px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-top: 0.9vw;
+    margin-bottom: 0.25vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 8px solid #301B0C;
+    border: 0.5vw solid #301B0C;
 }
 #Proposta-3 {
     background-color: #4D4D4D;
-    margin-top: 14.5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-top: 0.9vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 8px solid #301B0C;
+    border: 0.5vw solid #301B0C;
 }
 #Proposta-4 {
     background-color: #4D4D4D;
-    margin-top: 14.5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-top: 0.9vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 8px solid #301B0C;
+    border: 0.5vw solid #301B0C;
 }
 footer div {
     background-color: #294604;
-    padding: 80px;
-    border-bottom: 8px solid #301B0C;
+    padding: 5vw;
+    border-bottom: 0.5vw solid #301B0C;
 }
 footer section {
     display: flex;
     justify-content: space-between;
     background-color:#86A45F;
-    padding-top: 25px;
-    padding-bottom: 120px;
+    padding-top: 1,5vw;
+    padding-bottom: 9vw;
 }
 footer a {
     text-decoration: none;

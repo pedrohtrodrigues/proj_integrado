@@ -1,59 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/weick.css">
-    <title>Welcome</title>
+    <meta charset= "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-        <a href="./index.html"><img src="./imagens/logo_Social_Courses.png" height="120" alt="Logo" class="logo"></a>
+    <div class="main-login">
+        <div class="left-login">
+            <h1> Faça login<br> e entre para o nosso time DATA</h1>
+            <img src="studant.svg" alt="studant animação">
         </div>
-        <div class="links">
-            <a href="./html/tela-de-login.html" class="login">Login</a>
-            <a href="./html/tela-de-login.html" class="registro">Registrar-se</a>
+        <div class="right-login"></div>
+        <div class="card-login">
+            <h1>LOGIN</h1>
+            <div class="textfield">
+                <label for=" usuario">Usuário</label>
+                <input type="text" name="usuario" placeholder="Usuário">
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Senha">
+            </div>
+            <input type="checkbox"> Lembrar me</label>
+            <a href="#"> Esqueceu a senha?</a>
+            <br><br>
+            </div>
+            <button class="btn-login">Entrar</button>
+            <br><br>
+            <p>Você não tem cadastro? <a href="formulario.html">Cadastre-se</a></p>
         </div>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./html/tela-de-login.html">Login</a>
-            <a href="./html/videos.html">Videos</a></li>
-            <a href="./html/catalogo.html">Catálogo</a>
-            <a href="./html/pagina-sobre.html">Sobre</a>
-        </nav>
-    </header>
-    <main>
-        <div id="Carrossel">
-        <h1>Carrossel</h1>
-        </div>
-        <section class="propostas">
-        <div id="Proposta-1" class="Propostas">
-            <h3>Proposta 1</h3>
-        </div>
-        <div id="Proposta-2" class="Propostas">
-            <h3>Proposta 2</h3>
-        </div>
-        <div id="Proposta-3" class="Propostas">
-            <h3>Proposta 3</h3>
-        </div>
-        <div id="Proposta-4" class="Propostas">
-            <h3>Proposta 4</h3>
-        </div>
-        </section>
-
-    </main>
-    <footer>
-        <div>
-
-        </div>
-        <section>
-        <a href="Parceiros">Parceiros</a>
-        <a href="Termos de Serviço">Termos de Serviço</a>
-        <a href="Politicas de Privacidade">Politicas de privacidade</a>
-        <a href="Perguntas Frequentes (FAQ)">Perguntas frequentes (FAQ)</a>
-        <a href="Informações de Contato">Informações de Contato</a>
-        </section>
-    </footer>
+    </div>
 </body>
 </html>

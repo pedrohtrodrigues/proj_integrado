@@ -15,7 +15,7 @@ header .links{
     display: inline;
     float: right;
     background-color: #16213E;
-    border: 0.2vw solid #16213E;
+    border: 0.2vw solid #4D4D4D;
 }
 header .links a {
     color: #F5C518;

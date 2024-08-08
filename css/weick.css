@@ -5,38 +5,31 @@
     text-decoration: none;
     list-style: none;
 }
+
 header {
-    background-color: #1A1A2E;
+    background-color: #ffffff;
 }
-header .logo {
-    display: inline;
-}
-header .links{
-    display: inline;
-    float: right;
-    background-color: #16213E;
-    border: 0.2vw solid #4D4D4D;
-}
-header .links a {
-    color: #F5C518;
-    padding: 0.1vw;
-}
-header nav {
+.nav-header{
+    background-color: #163891;
     display: flex;
-    justify-content: flex-start;
-    background-color: #16213E;
-    padding-top: 0.4%;
-    padding-left: 0.2%;
+    flex-direction: row;
+    gap: 50px;
+    text-decoration-color: #ffffff;
+    font-weight: bold;
+ }
+
+.nav-header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style-type: none;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-decoration-color: #ffffff;
 }
-nav div {
-    width: 76.9%;
-    background-color: #1A1A2E;
-}
-header nav a {
-    color: #F5C518;
-    margin-left: 1.5%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.nav-header ul a {
+    color: white;
 }
 main {
     display: flex;

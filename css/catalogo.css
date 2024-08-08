@@ -21,7 +21,7 @@ header {
 }
 
 .nav-header{
-    background-color: #ffffff;
+    background-color: #163891;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -37,7 +37,9 @@ header {
     align-items: center;
     justify-items: center;
     justify-content: center;
+    text-decoration-color: #ffffff;
 }
+
 
 /* CSS Main & Body*/
 
@@ -48,7 +50,7 @@ main {
 .container {
     width: 100%;
     height: 70%;
-    background-image: linear-gradient(45deg, #163891, grey);
+    background-image: radial-gradient(rgb(146, 146, 145), rgb(146, 146, 145), #163891);
 }
 
 .gallery {
@@ -60,7 +62,7 @@ main {
 
 .gallery__img {
     width: 260px;
-    height: 220px;
+    height: 260px;
     object-fit: contain;
     background-color: #e3eefc;
 }

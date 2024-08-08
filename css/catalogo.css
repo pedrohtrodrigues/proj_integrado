@@ -16,16 +16,12 @@ body{
 
 /* CSS header*/
 
-header {
-    background-color: #ffffff;
-}
-
 .nav-header{
     background-color: #163891;
     display: flex;
     flex-direction: row;
     gap: 50px;
-    text-decoration-color: #ffffff;
+    color: #ffffff;
     font-weight: bold;
  }
 
@@ -39,7 +35,9 @@ header {
     justify-content: center;
     text-decoration-color: #ffffff;
 }
-
+.nav-header a{
+    color: #ffffff;
+}
 
 /* CSS Main & Body*/
 
@@ -137,6 +135,10 @@ main {
 
 footer {
     background-color: #ffffff;
+}
+
+.nav-footer a{
+    color: #163891;
 }
 
 .nav-footer{

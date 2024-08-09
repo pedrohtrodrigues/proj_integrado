@@ -1,9 +1,9 @@
 header {
-    background-color:lightcyan;
+    background: color #1a1a2e;
 }
 
 .nav-header{
-  background-color: #ffffff;
+  background-color: #16213E;
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -69,20 +69,30 @@ main section div h3{
   padding-bottom: 10px;
 }
 
-footer div {
-  background-color:lightcyan;
-  padding: px;
-  border-bottom: 8px solid rgb(69, 143, 209);
+footer {
+  background-color: #ffffff;
 }
-footer section {
+
+.nav-footer a{
+  color: #163891;
+  
+}
+
+.nav-footer{
   display: flex;
-  justify-content: space-between;
-  background-color:lightcyan;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
- 
-}
-footer a {
-  text-decoration: none;
-  color: black;
-}
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 21.5rem;
+  }
+
+.nav-footer ul{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  gap: 30px;
+  row-gap: 100px;
+  list-style-type:none;
+  align-items: center;
+  }

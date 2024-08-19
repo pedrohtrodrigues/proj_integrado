@@ -1,11 +1,15 @@
+/* Instruções Globais */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    list-style-type: none;
 }
-/* CSS header*/
+
+/* /Instruições Globais */
+/* CSS Header */
 
 .nav-header{
     background-color: #163891;
@@ -14,9 +18,9 @@
     gap: 50px;
     color: #ffffff;
     font-weight: bold;
- }
+}
 
-.nav-header ul{
+.nav-header ul {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -25,11 +29,13 @@
     justify-content: center;
     text-decoration-color: #ffffff;
 }
-.nav-header a{
+.nav-header a {
     color: #ffffff;
 }
 
-/* CSS Main & Body*/
+/* /CSS Header */
+/*  CSS Main & Body */
+
 main {
     display: flex;
     justify-content: center;
@@ -43,7 +49,6 @@ main {
 #Carrossel img {
     width: 39vw;
     object-fit: contain;
-    background-color: #e3eefc;
 }
 .propostas {
     display: flex;
@@ -55,12 +60,12 @@ main {
     width: 8vw;
     height: 8vw;
     object-fit: contain;
-    background-color: #e3eefc;
 }
 #Proposta-1, #Proposta-2,#Proposta-3,#Proposta-4 {
     padding-left: 100%;
 }
-/* CSS Footer*/
+/* /CSS Main & Body */
+/* CSS Footer */
 
 footer {
     background-color: #ffffff;
@@ -76,7 +81,8 @@ footer {
     background-color: #ffffff;
     justify-items: center;
     justify-content: center;
-    }
+}
+
 .nav-footer ul{
     display: flex;
     flex-direction: row;
@@ -85,4 +91,5 @@ footer {
     row-gap: 100px;
     list-style-type:none;
     align-items: center;
-    }
+}
+/* /CSS Footer */

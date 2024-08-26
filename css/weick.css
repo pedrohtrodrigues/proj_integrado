@@ -1,15 +1,20 @@
-/* Instruções Globais */
+/* CSS Geral para reset parametros default do browser*/
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
+    list-style: none;
 }
 
-/* /Instruições Globais */
-/* CSS Header */
+/* CSS Body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(128, 23, 23));*/
+}
+
+/* CSS header*/
 
 .nav-header{
     background-color: #163891;
@@ -18,18 +23,19 @@
     gap: 50px;
     color: #ffffff;
     font-weight: bold;
-}
+ }
 
-.nav-header ul {
+.nav-header ul{
     display: flex;
     flex-direction: row;
     gap: 25px;
     list-style-type: none;
     align-items: center;
+    justify-items: center;
     justify-content: center;
     text-decoration-color: #ffffff;
 }
-.nav-header a {
+.nav-header a{
     color: #ffffff;
 }
 
@@ -41,25 +47,50 @@ main {
     justify-content: center;
     background-color: #16213E;
     padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-image: radial-gradient(rgb(146, 146, 145), rgb(146, 146, 145), #163891);
 }
+
 #Carrossel {
-    display: flex;
-    justify-content: center;
-}
-#Carrossel img {
     width: 39vw;
-    object-fit: contain;
+    height: 39vw;
+    overflow: hidden;
+    position: relative;
+}
+#Carrossel:hover {
+    border: 2px solid black; 
+}
+#Carrossel .imagens {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: transform 1s ease-in-out; /* Transição suave para o efeito de slide */
+}
+
+#Carrossel .imagens div {
+    flex: 0 0 25%; /* Cada slide ocupa 25% da largura do carrossel */
+    height: 100%;
+}
+
+#Carrossel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .propostas {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .propostas h3 img {
     width: 8vw;
     height: 8vw;
     object-fit: contain;
+}
+.propostas h3 img:hover {
+    border: 2px solid black;
 }
 #Proposta-1, #Proposta-2,#Proposta-3,#Proposta-4 {
     padding-left: 100%;

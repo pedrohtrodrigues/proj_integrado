@@ -82,18 +82,19 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     box-sizing: border-box;
-    cursor: pointer;
 }
 .propostas h3 img {
     width: 8vw;
     height: 8vw;
     object-fit: contain;
+    cursor: pointer; /* Adiciona o cursor interativo diretamente na imagem */
 }
 .propostas h3 img:hover {
     border: 2px solid black;
 }
 #Proposta-1, #Proposta-2,#Proposta-3,#Proposta-4 {
-    padding-left: 100%;
+    padding-left: 100%; /* Mantém o padding para preservar a posição */
+    cursor: default; /* Remove o cursor interativo das áreas não-imagem */
 }
 /* /CSS Main & Body */
 /* CSS Footer */

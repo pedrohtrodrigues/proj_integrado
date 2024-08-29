@@ -1,6 +1,6 @@
-/* CSS Geral para reset parametros default do browser*/
+/* CSS Geral para reset parametros default do browser */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,24 +8,23 @@
     list-style: none;
 }
 
-/* CSS Body*/
-body{
+/* CSS Body */
+body {
     font-family: Arial, Helvetica, sans-serif;
-    /*background-image: linear-gradient(45deg, rgb(255, 255, 255), rgb(128, 23, 23));*/
 }
 
-/* CSS header*/
+/* CSS header */
 
-.nav-header{
+.nav-header {
     background-color: #163891;
     display: flex;
     flex-direction: row;
     gap: 50px;
     color: #ffffff;
     font-weight: bold;
- }
+}
 
-.nav-header ul{
+.nav-header ul {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -35,7 +34,7 @@ body{
     justify-content: center;
     text-decoration-color: #ffffff;
 }
-.nav-header a{
+.nav-header a {
     color: #ffffff;
 }
 
@@ -58,7 +57,7 @@ main {
     position: relative;
 }
 #Carrossel:hover {
-    border: 2px solid black; 
+    border: 2px solid black;
 }
 #Carrossel .imagens {
     display: flex;
@@ -91,11 +90,19 @@ main {
 }
 .propostas h3 img:hover {
     border: 2px solid black;
+    cursor: pointer; /* Cursor interativo só na imagem */
 }
-#Proposta-1, #Proposta-2,#Proposta-3,#Proposta-4 {
+
+#Proposta-1, #Proposta-2, #Proposta-3, #Proposta-4 {
     padding-left: 100%; /* Mantém o padding para preservar a posição */
-    cursor: default; /* Remove o cursor interativo das áreas não-imagem */
+    cursor: default; /* Remove a interatividade do contêiner */
+    pointer-events: none; /* Impede que o contêiner receba cliques */
 }
+
+#Proposta-1 img, #Proposta-2 img, #Proposta-3 img, #Proposta-4 img {
+    pointer-events: all; /* Permite que as imagens dentro dos contêineres recebam cliques */
+}
+
 /* /CSS Main & Body */
 /* CSS Footer */
 
@@ -103,11 +110,11 @@ footer {
     background-color: #ffffff;
 }
 
-.nav-footer a{
+.nav-footer a {
     color: #163891;
 }
 
-.nav-footer{
+.nav-footer {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
@@ -115,13 +122,13 @@ footer {
     justify-content: center;
 }
 
-.nav-footer ul{
+.nav-footer ul {
     display: flex;
     flex-direction: row;
     column-gap: 50px;
     gap: 30px;
     row-gap: 100px;
-    list-style-type:none;
+    list-style-type: none;
     align-items: center;
 }
 /* /CSS Footer */

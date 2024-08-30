@@ -159,6 +159,24 @@ background-color:  #385bb3;
  margin: 10px auto; 
 }
 
+.nossos-cursos .card-item .nome-curso{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.nossos-cursos .card-item .descrição{
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+.nossos-cursos .card-item .estrelas i{
+  color: #000000;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 footer {
   background-color: #ffffff;
 }

@@ -14,6 +14,7 @@ header {
 .nav-header{
   background-color: #163891;
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 50px;
   color: #ffffff;
@@ -47,6 +48,38 @@ header {
 .nav-header ul a:hover::after{
 width: 100%;
 }
+
+.search-header{
+  display:flex;
+  justify-content: flex-end;
+  float: right;
+ border: 1px solid whitesmoke;
+ border-radius: 0.3em;
+ padding: 0.3em;
+
+
+}
+
+.search input, search button{
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+}
+
+.search button{
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+.search button:hover{
+  background-color: whitesmoke;
+  color:  #163891;
+}
+
+
 
 section {
   padding: 5rem 5rem;
@@ -107,7 +140,7 @@ h3{
   border-radius: 10px;
   border-radius: 2rem;
 }
-.button{
+.sobre .button{
   background-color:  #163891;
   color: white;
   padding: 15px 20px;
@@ -176,6 +209,22 @@ background-color:  #385bb3;
   margin-bottom: 10px;
   font-size: 20px;
 }
+
+.nossos-cursos .card-item .button{
+    background-color:  #163891;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+  }
+  
+  .button:hover{
+  background-color:  #385bb3;
+  }
+
 
 footer {
   background-color: #ffffff;

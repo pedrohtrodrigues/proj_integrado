@@ -48,7 +48,9 @@ header {
 .nav-header ul a:hover::after{
 width: 100%;
 }
-
+.search-mover{
+  margin-left: 100px;
+}
 .search-header{
   display:flex;
   justify-content: flex-end;

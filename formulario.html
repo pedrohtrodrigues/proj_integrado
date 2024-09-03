@@ -3,44 +3,74 @@
 <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--Link css-->
+    <link rel="stylesheet" href="../css/sobre.css"></link>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Formulário | Secretaria Digital</title>
+      <header> 
+            <!-- ---------------Body Menu de Navegações (nav)--------------- -->
+        <nav>
+        <div class="nav-header">
+           <img src="../imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
+           <ul>
+               <li><a href="./index.html">Home</a></li>
+               <li><a href="./login.html">Login</a></li>
+               <li><a href="./html/videos.html">Videos</a></li>
+               <li><a href="./html\catalogo.html">Catálogo</a></li>
+               <li><a href="./html/pagina-sobre.html">Sobre</a></li>
+           </ul>
+        
+           <div class="search">
+                   <!-- Barra de Pesquisa -->
+               <label for="searchInput">
+                   <span class="material-sybols-outlined"></span>
+               </label>
+               <input type="text" id="searchInput" placeholder="Pesquisar" required>
+               <button type="submit">
+                   <i class="fa-solid fa-magnifying-glass"></i>
+               </button>
+            </div>
+        
+            <div class="card-container">
+               <div class="card"></div>
+            </div>
+        </div>
+        </nav>
+        </header>
       <style>
             body{
-                  font-family: Arial, Helvetica, sans-serif;
-                  background-image: linear-gradient(to right, violet, grey);
+                  font-family: 'Helvetica', sans-serif;
+                  background-image: #163891;
             }
             .box{
                   position: absolute;
-                  top: 50%;
+                  top: 60%;
                   left: 50%;
                   transform: translate(-50%,-50%);
-                  background-color: rgba(0, 0, 0, 0.8);
+                  background-color: #163891;
                   padding: 80px;
-                  border-radius: 15px;
-                  width: 30%;
-            }
-            fieldset{
-                  border: 3px solid white;
+                  border-radius: 100px;
+                  width: 50%;
             }
             legend{
                   border: 30px solid white;
-                  padding: 10px;
+                  padding: 20px;
                   text-align: center;
                   background-color: white;
                   border-radius: 8px;
             }
             .inputBox{
                   position: relative;
-                  color:grey;
+                  color:black;
             }
             .imputUser{
                   background: none;
+                  padding: 20px;
                   border: none;
-                  border-bottom: 1px solid grey;
+                  border-bottom: 50px solid #163891;
                   outline: none;
-                  color: dodgerblue;
-                  font-size: 10px;
+                  color: #163891;
+                  font-size: 50px;
                   width: 100%;
                   letter-spacing: 2px;
             }
@@ -55,17 +85,17 @@
       .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: #163891;
       }
       #data_nascimento{
             border: none;
-            padding: 8px;
+            padding: 20px;
             border-radius: 10px;
             outline: none;
             font-size: 15px;
       }      
       #submit{
-            background-color: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            background-color: linear-gradient(to right, rgb(0, 92, 197), #163891);
             width: 100%;
             border:none;
             padding: 15px;
@@ -75,7 +105,7 @@
             border-radius: 10px;
       }
       #submit:hover{
-            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19,195));
+            background-image: linear-gradient(to right, rgb(0, 80, 172), #163891);
       }
       </style>
 </head>

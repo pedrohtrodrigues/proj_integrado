@@ -3,14 +3,46 @@
 <head>
     <meta charset= "UTF-8">
     <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <!--Link css-->
+    <link rel="stylesheet" href="../css/sobre.css"></link>
     <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
+<header> 
+    <!-- ---------------Body Menu de Navegações (nav)--------------- -->
+<nav>
+<div class="nav-header">
+   <img src="../imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
+   <ul>
+       <li><a href="./index.html">Home</a></li>
+       <li><a href="./login.html">Login</a></li>
+       <li><a href="./html/videos.html">Videos</a></li>
+       <li><a href="./html\catalogo.html">Catálogo</a></li>
+       <li><a href="./html/pagina-sobre.html">Sobre</a></li>
+   </ul>
+
+   <div class="search">
+           <!-- Barra de Pesquisa -->
+       <label for="searchInput">
+           <span class="material-sybols-outlined"></span>
+       </label>
+       <input type="text" id="searchInput" placeholder="Pesquisar" required>
+       <button type="submit">
+           <i class="fa-solid fa-magnifying-glass"></i>
+       </button>
+    </div>
+
+    <div class="card-container">
+       <div class="card"></div>
+    </div>
+</div>
+</nav>
+</header>
 <body>
     <div class="main-login">
         <div class="left-login">
-            <h1> Faça login<br> e entre para o nosso time DATA</h1>
+            <h1> Faça login<br> e entre para o nosso time DATASOCIAL</h1>
             <img src="studant.svg" alt="studant animação">
         </div>
         <div class="right-login"></div>
@@ -20,8 +52,9 @@
                 <label for=" usuario">Usuário</label>
                 <input type="text" name="usuario" placeholder="Usuário">
             </div>
+            <h1>SENHA</h1>
             <div class="textfield">
-                <label for="senha">Senha</label>
+                <label for="senha">SENHA</label>
                 <input type="password" name="senha" placeholder="Senha">
             </div>
             <input type="checkbox"> Lembrar me</label>

@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    border: 2px solid #212121;
+    border: 2px solid #163891;
   }
   
   header ul {
@@ -20,7 +20,7 @@ body {
   
   aside {
     float: right;
-    border: 2px solid #212121;
+    border: 2px solid #163891;
   }
   
   #posts {
@@ -28,7 +28,7 @@ body {
   }
   
   .post {
-    border: 2px solid #3D3D3D;
+    border: 2px solid #163891;
     padding: 0 .5rem;
     margin-bottom: 1rem;
   }
@@ -45,5 +45,5 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-    border: 2px solid #212121;
+    border: 2px solid #163891;
   }

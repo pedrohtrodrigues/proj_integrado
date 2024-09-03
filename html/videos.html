@@ -1,59 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <! ----------------- HEAD----------------------------------------------------------------->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos Cursos</title>
-    <link rel="stylesheet" type="text/css" href="./css/Videos.css">
+    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/videos.css"></link>
+    <title>Videos de Cursos</title>
 </head>
-<body>
-    <header>
-        <main>
-            <nav>
-            <img src="/imagens/logo_Social_Courses.png" width="120" alt="Logo">
+<body id="body">
+    <! ------------------------------ HEADER---------- LOGO ---- MENU --------------------------------------------------->
+    <nav>
+        <div class="nav-header">
+            <img src="../imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left: 20px;">
             <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                    <a href="./tela-de-login.html">Login</a>
-                    <a href="./videos.html">Videos</a>
-                    <a href="./catalogo.html">Catálogo</a>
-                    <a href="./pagina-sobre.html">Sobre</a>
-                </li>
-                <header>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../login.html">Login</a></li>
+                <li><a href="./videos.html">Videos</a></li>
+                <li><a href="./catalogo.html">Catálogo</a></li>
+                <li><a href="./pagina-sobre.html">Sobre</a></li>
             </ul>
         </div>
-        <div id="Video-em-exposição">
-            <h1>Video em exposição:</h1>
-             </nav>
-             <section class="Videos-aula">
-                <div id="Aula-1" class="Videos-aula">
-                    <h3>Aula-1</h3>
-                </div>
-                <div id="Aula-2" class="Videos-aula">
-                    <h3>Aula 2</h3>
-                </div>
-                <div id="Aula-3" class="Videos-aula">
-                    <h3>Aula 3</h3>
-                </div>
-                <div id="Aula-4" class="Videos-aula">
-                    <h3>Aula 4</h3>
-                </div>
-                </section>
-            
+    </nav>
+    <! ------------------ BODY ------------- GALERIA DE VIDEOS ------------------------------------------------>
+ 
+     <div class="container">
+    <div class="main-video-content">
+      <video src="" controls muted autoplay></video>
+      <label class="main-info"></label>
+    </div>
+    <div class="playlist"></div>
+  </div>
+
+  <script src="../java/script.js" type="module"></script>
 
 
-
-        <main>
-    <footer>
-
-        <ul>
-            <li>
-                
-                <a href="footer1">Termos de serviço</a>
-                <a href="footer2">Políticas de privacidade</a>
-                <a href="footer3">Informações de contato</a>
-            </li>
-        </ul>
-    </footer>
+<br>
+   
+      <! ---------------- FOOTER ------ MENU ________________________-------------------------------------------->
+      <nav>
+        <br>
+          <div class="nav-footer">
+                <ul>
+                  <li><a href="parceiros.html">Parceiros</a></li>
+                  <li><a href="termos.html">Termos de Serviço</a></li>
+                  <li><a href="privacidade.html">Política de Privacidade</a></li>
+                  <li><a href="freq.html">Perguntas Frequentes (Freq)</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+          </div>
+          <br>
+         
+      </nav>
 </body>
 </html>

@@ -4,16 +4,19 @@
     <meta charset= "UTF-8">
     <meta http-equiv="X-UA-Compatible" content= "IE=edge">
     <!--Link css-->
-    <link rel="stylesheet" href="../css/sobre.css"></link>
     <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+     <!--Link font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://kit.fontawesome.com/3b5592dd7f.js" crossorigin="anonymous"></script>
+
     <title>Login</title>
 </head>
 <header> 
     <!-- ---------------Body Menu de Navegações (nav)--------------- -->
 <nav>
 <div class="nav-header">
-   <img src="../imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
+   <img src="./imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
    <ul>
        <li><a href="./index.html">Home</a></li>
        <li><a href="./login.html">Login</a></li>
@@ -22,20 +25,17 @@
        <li><a href="./html/pagina-sobre.html">Sobre</a></li>
    </ul>
 
-   <div class="search">
-           <!-- Barra de Pesquisa -->
-       <label for="searchInput">
-           <span class="material-sybols-outlined"></span>
-       </label>
-       <input type="text" id="searchInput" placeholder="Pesquisar" required>
-       <button type="submit">
-           <i class="fa-solid fa-magnifying-glass"></i>
-       </button>
-    </div>
-
-    <div class="card-container">
-       <div class="card"></div>
-    </div>
+   <div class="search-mover">
+    <div class="search">
+            <!-- Barra de Pesquisa -->
+        <label for="searchInput">
+            <span class="material-sybols-outlined"></span>
+        </label>
+        <input type="text" id="searchInput" placeholder="Pesquisar" required>
+        <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+     </div>
 </div>
 </nav>
 </header>
@@ -50,7 +50,8 @@
             <h1>LOGIN</h1>
             <div class="textfield">
                 <label for=" usuario">Usuário</label>
-                <input type="text" name="usuario" placeholder="Usuário">
+                <input type="text" name="usuario"
+placeholder="Usuário">
             </div>
             <h1>SENHA</h1>
             <div class="textfield">
@@ -67,4 +68,3 @@
         </div>
     </div>
 </body>
-</html>

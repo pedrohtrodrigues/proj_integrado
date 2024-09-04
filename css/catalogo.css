@@ -38,7 +38,53 @@ body{
 .nav-header a{
     color: #ffffff;
 }
-
+.nav-header ul a::after{
+    content: "";
+    background-color:#385bb3;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+  }
+  
+  .nav-header ul a:hover::after{
+  width: 100%;
+  }
+  .search-mover{
+    margin-left: 57%;
+    margin-top: 2%;
+  }
+  .search-header{
+    display:flex;
+    justify-content: flex-end;
+    float: right;
+   border: 1px solid whitesmoke;
+   border-radius: 0.3em;
+   padding: 0.3em;
+  
+  
+  }
+  
+  .search input, search button{
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+  }
+  
+  .search button{
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    transition: 0.3s;
+  }
+  
+  .search button:hover{
+    background-color: whitesmoke;
+    color:  #163891;
+  }
+  
 /* CSS Main & Body*/
 
 main {

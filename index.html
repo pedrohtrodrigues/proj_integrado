@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link serve para conectar o css com o html -->
-    <link rel="stylesheet" href="../css/weick.css">
+    <link rel="stylesheet" href="./css/weick.css">
     <script src="./java/weick.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/3b5592dd7f.js" crossorigin="anonymous"></script>
     <title>Sprint1</title>
 </head>
 <body>
     <!-- ----------------Body Menu de Navegações (nav)---------------- -->
      <nav>
         <div class="nav-header">
-            <img src="../imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
+            <img src="./imagens/Logo_Social_Courses_branco.png" width="120" height="120" style="margin-left:  20px;" alt="Logo">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./login.html">Login</a></li>
@@ -20,6 +22,17 @@
                 <li><a href="./html/catalogo.html">Catálogo</a></li>
                 <li><a href="./html/pagina-sobre.html">Sobre</a></li>
             </ul>
+            <div class="search-mover">
+                <div class="search">
+                        <!-- Barra de Pesquisa -->
+                    <label for="searchInput">
+                        <span class="material-sybols-outlined"></span>
+                    </label>
+                    <input type="text" id="searchInput" placeholder="Pesquisar" required>
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                 </div>
         </div>
      </nav>
      <!-- ----------------/Body Menu de Navegações (nav)---------------- -->
@@ -28,24 +41,24 @@
        <main>
         <div id="Carrossel">
             <div class="imagens">
-            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="../imagens/curso_Linux_Basico.webp" alt="Linux Basico"></h1></a></div>   
-            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="../imagens/curso_Linux_Avançado.webp" alt="Linux Avançado"></h1></a></div>
-            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="../imagens/curso_DataOps_Python1.webp" alt="Python"></h1></a></div>
-            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="../imagens/curso_SAS_Programming.webp" alt="SAS Programming"></h1></a></div>
+            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="./imagens/curso_Linux_Basico.webp" alt="Linux Basico"></h1></a></div>   
+            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="./imagens/curso_Linux_Avançado.webp" alt="Linux Avançado"></h1></a></div>
+            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="./imagens/curso_DataOps_Python1.webp" alt="Python"></h1></a></div>
+            <div><a href="./html/catalogo.html"><h1><img class="carrossel-image" src="./imagens/curso_SAS_Programming.webp" alt="SAS Programming"></h1></a></div>
             </div>
         </div>
         <section class="propostas">
             <div id="Proposta-1" localizador="0">
-                <h3><img src="../imagens/curso_Linux_Basico.webp" alt="Linux Avançado"></h3>
+                <h3><img src="./imagens/curso_Linux_Basico.webp" alt="Linux Avançado"></h3>
             </div>
             <div id="Proposta-2" localizador="1">
-                <h3><img src="../imagens/curso_Linux_Avançado.webp" alt="Python 1"></h3>
+                <h3><img src="./imagens/curso_Linux_Avançado.webp" alt="Python 1"></h3>
             </div>
             <div id="Proposta-3" localizador="2">
-                <h3><img src="../imagens/curso_DataOps_Python1.webp" alt="Python 2"></h3>
+                <h3><img src="./imagens/curso_DataOps_Python1.webp" alt="Python 2"></h3>
             </div>
             <div id="Proposta-4" localizador="3">
-                <h3><img src="../imagens/curso_SAS_Programming.webp" alt="SAS Programming"></h3>
+                <h3><img src="./imagens/curso_SAS_Programming.webp" alt="SAS Programming"></h3>
             </div>
     <!-- ---------------/Main Conteúdo Principal--------------- -->
         </section>

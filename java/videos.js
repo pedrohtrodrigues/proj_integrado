@@ -1,24 +1,21 @@
 export default [
   {
-    src: "../videos/01.mp4",
-    title: "Editando fotos",
+    src: "../videos/video.03.mov",
+    title: "Python-básico",
   },
   {
-    src: "../videos/02.mp4",
-    title: "Live Stream",
+    src: "../videos/video.01.mov",
+    title: "JavaScript",
   },
   {
-    src: "../videos/03.mp4",
-    title: "Digitando",
+    src: "../videos/video.04.mov",
+    title: "HTML",
   },
   {
-    src: "../videos/04.mp4",
-    title: "Home office",
+    src: "../videos/video.05.mov",
+    title: "HTML/CSS",
   },
-  {
-    src: "../videos/06.mp4",
-    title: "Gota de água",
-  },
+ 
   {
     src: "../videos/07.mp4",
     title: "Código",

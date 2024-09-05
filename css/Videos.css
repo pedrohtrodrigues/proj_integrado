@@ -95,7 +95,7 @@ main {
 .container {
   display: flex;
   gap: 15px;
-  margin: 20px 10px;
+  margin: 55px 10px;
   background-color: white;
   padding: 10px;
 }
@@ -109,7 +109,7 @@ main {
 }
 
 .main-video-content video {
-  width: 800px;
+  width: 1300px;
 }
 
 .playlist {
@@ -117,8 +117,10 @@ main {
   flex-direction: column;
   gap: 10px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 900px;
   padding: 2px;
+  
+ 
 }
 
 .playlist::-webkit-scrollbar {
@@ -145,7 +147,7 @@ main {
 }
 
 .playlist-video video{
-  width: 100px;
+  width: 150px;
 }
 
 @media (max-width: 900px) {

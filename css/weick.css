@@ -1,21 +1,13 @@
-/* CSS Geral para reset parametros default do browser */
-
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
-}
-
-/* CSS Body */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* CSS header */
-
-nav{
+    outline:none;
+    font-family: 'Helvetica', sans-serif;
+  
+  }
+  nav {
     background-color: #163891;
     display: flex;
     align-items: center;
@@ -70,6 +62,14 @@ nav{
   }
   .search-header{
     display:flex;
+   border: 1px solid whitesmoke;
+   border-radius: 0.3em;
+   padding: 0.3em;
+  
+  
+  }
+  .search-header{
+    display:flex;
     justify-content: flex-end;
     float: right;
    border: 1px solid whitesmoke;
@@ -97,6 +97,8 @@ nav{
     background-color: whitesmoke;
     color:  #163891;
   }
+  
+  
   
 /* /CSS Header */
 /*  CSS Main & Body */

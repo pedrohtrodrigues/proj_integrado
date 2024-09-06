@@ -194,24 +194,50 @@ background-color:  #385bb3;
 .cards{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nossos-cursos .card-item{
   background-color:#385bb3;
-  margin: 10px;
+  margin: 20px;
   border-radius:12px;
   text-align: center;
+  align-items: center;
+  width: 500px;
+}
+
+.nossos-cursos .card-item1{
+  background-color:#385bb3;
+  margin: 20px;
+  border-radius:12px;
+  text-align: center;
+  align-items: center;
   width: 500px;
 }
 
 .nossos-cursos .card-item img{
  border-radius: 10px;
  width: 150px;
+ align-items: center;
  display: block;
  margin: 10px auto; 
 }
 
+.nossos-cursos .card-item1 img{
+  border-radius: 10px;
+  width: 90px;
+  align-items: center;
+  display: block;
+  margin: 10px auto;
+}
+
 .nossos-cursos .card-item .nome-curso{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.nossos-cursos .card-item1 .nome-curso{
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 15px;
@@ -222,7 +248,18 @@ background-color:  #385bb3;
   padding: 0 15px;
 }
 
+.nossos-cursos .card-item1 .descrição{
+  font-size: 15px;
+  padding: 0 15px;
+}
+
 .nossos-cursos .card-item .estrelas i{
+  color: #000000;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.nossos-cursos .card-item1 .estrelas i{
   color: #000000;
   margin-top: 1px;
   margin-bottom: 10px;
@@ -235,6 +272,17 @@ background-color:  #385bb3;
     padding: 15px 20px;
     border-radius: 2rem;
     margin-bottom: 15px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+  }
+
+  .nossos-cursos .card-item1 .button{
+    background-color:  #163891;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    margin-bottom: 12px;
     cursor: pointer;
     display: inline-block;
     transition: 0.1s;
